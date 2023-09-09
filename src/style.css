@@ -1,0 +1,74 @@
+:root {
+  --main-bg-color: repeating-linear-gradient(
+    to right,
+
+    rgb(255, 79, 117),
+    rgb(145, 83, 163),
+    rgb(255, 101, 32),
+    rgb(0, 137, 144),
+    rgb(255, 130, 147)
+  );
+}
+body {
+  background-image: url("img/backround.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-family: "League Script", cursive;
+  font-weight: 900;
+  font-size: 70px;
+  background: var(--main-bg-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button:hover {
+  text-shadow: 9px 9px 24px rgb(255, 130, 147), 13px -5px 6px rgba(145, 83, 163);
+
+  text-decoration: none;
+}
+
+.button {
+  background: var(--main-bg-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 15px;
+  padding: 5px;
+  border: none;
+  font-family: "League Script", cursive;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.container-landing {
+  max-height: 100%;
+  max-width: 100%;
+}
+.nav-cont {
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Intro {
+  font-family: "Handlee", cursive;
+  margin-top: 20px;
+  max-height: 100%;
+}
+.heading,
+.short {
+  margin: 10px;
+}
+.Next {
+  margin-top: 10%;
+}
+#IntroHead {
+  margin-top: 10%;
+}
+#shortSkill {
+  padding: 10px;
+  margin-top: 20px;
+}
