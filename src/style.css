@@ -45,14 +45,7 @@ h1 {
   max-height: 100%;
   max-width: 100%;
 }
-.nav-cont {
-  padding: 5px;
-  margin-bottom: 15px;
-}
-.nav-item {
-  margin-left: 10px;
-  margin-right: 10px;
-}
+
 .Intro {
   font-family: "Handlee", cursive;
   margin-top: 20px;
