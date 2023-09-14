@@ -13,9 +13,12 @@ body {
   font-family: "Handlee", cursive;
 }
 h2 {
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 23px;
   margin-top: 10%;
   font-family: "League Script", cursive;
-  font-size: xx-large;
+  font-size: xxx-large;
   font-weight: 900;
   background: var(--main-bg-color);
   -webkit-background-clip: text;
@@ -28,7 +31,9 @@ h3 {
 ul {
   list-style: none;
 }
-
+projectRow {
+  margin: 5px;
+}
 .nav-cont {
   padding: 5px;
   margin-bottom: 15px;
@@ -71,6 +76,9 @@ ul {
 .end {
   margin-top: 40px;
   padding: 15px;
+}
+img {
+  padding: 3px;
 }
 #projectImg {
   max-width: 80%;
