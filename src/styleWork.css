@@ -2,7 +2,7 @@
   --main-bg-color: repeating-linear-gradient(
     to right,
 
-    rgb(255, 79, 117),
+    #ff4f75,
     rgb(145, 83, 163),
     rgb(255, 101, 32),
     rgb(0, 137, 144),
@@ -69,6 +69,7 @@ projectRow {
   border-image: var(--main-bg-color);
   border-image-slice: 1;
   border-style: dotted;
+  padding: 2px;
 }
 .project {
   padding: 10px;
@@ -79,6 +80,9 @@ projectRow {
 }
 img {
   padding: 3px;
+}
+.row {
+  margin: 2px;
 }
 #projectImg {
   max-width: 80%;
