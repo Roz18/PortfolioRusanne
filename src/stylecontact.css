@@ -2,21 +2,21 @@
   --main-bg-color: repeating-linear-gradient(
     to right,
 
-    #ff4f75,
+    rgb(255, 79, 117),
     rgb(145, 83, 163),
-    rgb(255, 101, 32),
+    rgb(232, 114, 60),
     rgb(0, 137, 144),
     rgb(255, 130, 147)
   );
 }
 body {
   font-family: "Handlee", cursive;
+  background-image: url("img/backround.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
 h2 {
-  margin-left: 400px;
-  margin-right: 400px;
-  padding: 23px;
-  margin-top: 5%;
   font-family: "League Script", cursive;
   font-size: xxx-large;
   font-weight: 900;
@@ -24,15 +24,8 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-h3 {
-  font-size: x-large;
-}
-
 ul {
   list-style: none;
-}
-projectRow {
-  margin: 5px;
 }
 .nav-cont {
   padding: 5px;
@@ -54,43 +47,40 @@ projectRow {
   text-decoration: none;
   color: rgb(255, 79, 117);
 }
-.gradient-border-wrapper {
-  display: inline-block;
-  border-radius: 20px;
-  overflow: hidden;
-  margin: 5% 2% 2%;
-  max-width: 100%;
-}
-
-.gradient-border {
-  border-radius: 15px;
-  border-width: 4px;
-  -o-border-image: var(--main-bg-color);
-  border-image: var(--main-bg-color);
-  border-image-slice: 1;
-  border-style: dotted;
-  padding: 2px;
-}
-.project {
-  padding: 10px;
-}
-.end {
-  margin-top: 40px;
-  padding: 15px;
-}
-img {
-  padding: 3px;
-}
-.row {
-  margin: 2px;
-}
-#projectImg {
-  max-width: 80%;
-  padding: 10px;
-  margin: 5px;
-}
 #active {
   background: var(--main-bg-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.basic-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 2fr 1fr 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  height: 100%;
+}
+#grid1 {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-row-end: 2;
+  grid-column-end: 5;
+}
+
+#contactInfo {
+  grid-row-start: 3;
+  grid-column-start: 3;
+  grid-row-end: 4;
+  grid-column-end: 4;
+}
+#grid2 {
+  grid-row-start: 5;
+  grid-column-start: 2;
+  grid-row-end: 5;
+  grid-column-end: 5;
+}
+#soscial {
+  grid-row-start: 6;
+  grid-column-start: 3;
+  grid-row-end: 7;
+  grid-column-end: 4;
 }

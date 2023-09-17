@@ -104,3 +104,9 @@ ul {
   text-shadow: 9px 9px 24px rgb(255, 130, 147), 13px -5px 6px rgba(145, 83, 163);
   text-decoration: none;
 }
+@media (max-width: 767px) {
+  .angry-grid {
+    grid-template-rows: 4rem auto auto 45px;
+    grid-template-columns: 16rem auto;
+  }
+}

@@ -41,11 +41,6 @@ h1 {
   font-weight: 900;
 }
 
-.container-landing {
-  max-height: 100%;
-  max-width: 100%;
-}
-
 .Intro {
   font-family: "Handlee", cursive;
   margin-top: 20px;
@@ -64,4 +59,32 @@ h1 {
 #shortSkill {
   padding: 10px;
   margin-top: 20px;
+}
+@media (max-width: 768px) {
+  body {
+    background-image: none;
+    padding: 10px;
+  }
+  h1 {
+    font-size: xxx-large;
+  }
+  h3 {
+    font-size: large;
+  }
+  .large {
+    display: none;
+  }
+  .Next {
+    font-size: medium;
+  }
+
+  #shortSkill {
+    font-size: small;
+  }
+}
+
+@media (min-width: 769px) {
+  .small {
+    display: none;
+  }
 }
