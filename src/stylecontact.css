@@ -84,3 +84,43 @@ ul {
   grid-row-end: 7;
   grid-column-end: 4;
 }
+@media (max-width: 769px) {
+  body {
+    background-image: none;
+  }
+  h2 {
+    margin: auto;
+    padding-top: 10%;
+    font-size: xx-large;
+  }
+  .nav-link,
+  .nav-link-active,
+  .nav-item {
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .basic-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 0fr;
+    gap: 2px;
+  }
+  #grid1 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  #contactInfo {
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+  #grid2 {
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+  #soscial {
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+}

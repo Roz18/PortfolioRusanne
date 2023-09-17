@@ -13,9 +13,6 @@ body {
   font-family: "Handlee", cursive;
 }
 h2 {
-  margin-left: 400px;
-  margin-right: 400px;
-  padding: 23px;
   margin-top: 5%;
   font-family: "League Script", cursive;
   font-size: xxx-large;
@@ -30,6 +27,8 @@ h3 {
 
 ul {
   list-style: none;
+  text-align: ;
+  padding-top: 2%;
 }
 projectRow {
   margin: 5px;
@@ -79,6 +78,7 @@ projectRow {
   padding: 15px;
 }
 img {
+  height: 56px;
   padding: 3px;
 }
 .row {
@@ -93,4 +93,30 @@ img {
   background: var(--main-bg-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media (max-width: 768px) {
+  img {
+    height: 36px;
+  }
+  h3 {
+    margin: auto;
+  }
+  .project {
+    display: none;
+  }
+  .smallproject {
+    text-align: center;
+  }
+  .nav-link,
+  .nav-link-active,
+  .nav-item {
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
+@media (min-width: 769px) {
+  .smallproject {
+    display: none;
+  }
 }
