@@ -126,6 +126,13 @@ img {
   #rowsmall {
     margin-bottom: 10%;
   }
+  #linkProject {
+    color: black;
+    display: block;
+    border: ridge;
+    border-width: 0.3px;
+    border-color: #ff4f75;
+  }
 }
 @media (min-width: 769px) {
   .smallproject {
